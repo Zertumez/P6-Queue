@@ -52,7 +52,7 @@ namespace P6_Queue
                     if (filaTienda.CountClientesFormados() == 0)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine("No se pueden eliminar personas de la fila ya que no hay alguna.");
+                        Console.WriteLine("No se pueden atender personas ya que en la fila no hay alguna.");
                         Console.WriteLine("");
                     }
                     else

@@ -70,10 +70,10 @@ namespace P6_Queue
         // ¿Qué va a comprar cada cliente formado?: Mostrar en consola la información de todos los clientes "formados" y qué producto van a comprar
         public void MostrarInfo()
         {
-            foreach (Cliente Cliente in filaTienda)
+            foreach (Cliente cliente in filaTienda)
             {
                 Console.WriteLine("");
-                Console.WriteLine("El cliente: " + Cliente.nombre + ", va a comprar: " + Cliente.productoAComprar + ".");
+                Console.WriteLine("El cliente: " + cliente.nombre + ", va a comprar: " + cliente.productoAComprar + ".");
             }
             Console.WriteLine("");
         }
